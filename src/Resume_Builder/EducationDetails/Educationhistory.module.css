@@ -1,0 +1,208 @@
+.EducationWrapper {
+    margin-right: 5%;
+    border: 2px solid;
+    width: 50%;
+    min-height: 150px;
+    border-radius: 20px;
+    padding: 1% 3%;
+    border-color: #34495e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.editColor {
+    border: 4px solid rgb(248, 184, 106);
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%
+}
+
+.text {
+    color: #34495e;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.gobackWrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+.goback,
+.gobackIcon:hover {
+    cursor: pointer;
+}
+
+.goback {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.gobackIcon {
+    width: 20px;
+    height: 20px;
+    color: #34495e;
+
+}
+
+.addWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30%;
+}
+
+.add,
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%
+}
+
+.add,
+.nextText,
+.reset:hover {
+    cursor: pointer;
+}
+
+.nextText {
+    margin: 5% 0% 5% 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%
+}
+
+.require:after {
+    content: '*';
+    color: red;
+    margin-left: 2px
+}
+
+.errorContainer {
+    height: 20px;
+}
+
+.error {
+    color: rgb(113, 19, 19);
+    font-weight: 700;
+    font-size: 15px
+}
+
+
+.boxDate {
+    display: flex;
+    gap: 10%;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorInput {
+    border: 2px solid rgb(113, 19, 19);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.degree {
+    font-size: 30px;
+    color: #34495e;
+    font-weight: 600
+}
+
+.name {
+    font-size: 20px;
+    color: #34495e;
+    font-weight: 400
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.location {
+    color: #34495e;
+    font-weight: 400
+}
+
+.dates {
+    display: flex;
+    gap: 10px;
+    color: #34495e;
+}
+
+.descriptionHeading {
+    color: #34495e;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.description {
+    font-size: 20px;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    color: #34495e;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.alert {
+    margin-bottom: 20px;
+    color: #34495e;
+}

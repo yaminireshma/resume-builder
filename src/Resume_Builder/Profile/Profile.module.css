@@ -1,0 +1,104 @@
+.alert {
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.require:after {
+    content: '*';
+    color: red;
+    margin-left: 2px
+}
+
+.textArea {
+    height: 300px;
+    width: 50%;
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.textArea:focus {
+    border: 2px solid #34495e;
+    outline: none
+}
+
+.errorContainer {
+    height: 20px;
+}
+
+.error {
+    color: rgb(113, 19, 19);
+    font-weight: 700;
+    font-size: 15px
+}
+
+.errorInput {
+    border: 2px solid rgb(113, 19, 19);
+}
+
+.nextText {
+    margin-left: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.nextText:hover {
+    cursor: pointer
+}
+
+.goback {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.goback,
+.gobackIcon:hover {
+    cursor: pointer;
+}
+
+.gobackIcon {
+    width: 20px;
+    height: 20px;
+    color: #34495e;
+}
+
+.gobackWrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 75%;
+}
+
+.reset:hover {
+    cursor: pointer;
+}

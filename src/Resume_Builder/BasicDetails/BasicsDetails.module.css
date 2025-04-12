@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%
+}
+
+.alert {
+    color: #34495e;
+}
+
+.errorContainer {
+    height: 20px;
+}
+
+.require:after {
+    content: '*';
+    color: red;
+    margin-left: 2px
+}
+
+.error {
+    color: rgb(113, 19, 19);
+    font-weight: 700;
+    font-size: 15px
+}
+
+.errorInput {
+    border: 2px solid rgb(113, 19, 19);
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 80%;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
+
+.nextText {
+    margin-left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 5%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.nextText:hover {
+    cursor: pointer
+}
+
+.fileInputInvisible{
+    display:none
+}
+
+.fileButton{
+    min-width:40px;
+    height:50px;
+    border-radius:10px;
+    color:white;
+    font-weight: 700;
+    background-color: #34495e;
+}
+
+.fileButton:hover{
+    cursor: pointer;
+}
+
+.fileButtonWrapper{
+    display:flex;
+    align-items: center;
+    gap:10px
+}

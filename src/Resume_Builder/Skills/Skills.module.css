@@ -1,0 +1,147 @@
+.gobackWrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+.goback {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.goback,
+.gobackIcon:hover {
+    cursor: pointer;
+}
+
+.gobackIcon {
+    width: 20px;
+    height: 20px;
+    color: #34495e;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 12%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10%;
+    outline: 1px solid #34495e;
+}
+
+.add:disabled {
+    cursor: not-allowed
+}
+
+
+.add,
+.next,
+.cross:hover {
+    cursor: pointer
+}
+
+.skillContainer {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #34495e;
+    padding: 20px;
+    margin-top: 2%;
+    overflow-y: auto;
+}
+
+.skillWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #34495e;
+    color:white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    gap: 20px
+}
+
+.name {
+    word-break: break-all;
+}
+
+.cross {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: rgb(113, 19, 19);
+    font-weight: 700;
+    font-size: 20px
+}
+
+.delete {
+    background-color: #34495e;
+    outline: none;
+    color: white;
+    border: transparent;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 6%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #34495e;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 80%;
+    margin-top: 20px
+}
+
+.search {
+    display: flex;
+    gap: 20px
+}
+
+.range {
+    width: 170px
+}
+
+.range:hover {
+    cursor: pointer;
+}
+
+.proficiency {
+    display: flex
+}
+
+.percent {
+    font-weight: 600;
+}
+
+.skillsName {
+    margin-bottom: 4px
+}

@@ -1,0 +1,40 @@
+.goback {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.goback,
+.gobackIcon:hover {
+    cursor: pointer;
+}
+
+.gobackIcon {
+    width: 20px;
+    height: 20px;
+    color: #34495e;
+
+}
+
+.gobackWrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px
+}
+
+.createButton {
+    width: 300px;
+    height: 70px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: #34495e;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white
+}
+
+.createButton:hover {
+    cursor: pointer;
+
+}
